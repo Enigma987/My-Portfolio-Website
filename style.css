@@ -1,14 +1,6 @@
 body {
     background: url("./images/bg_image.png") no-repeat fixed;
     background-size: cover;
-
-    font-family: 'Inter', sans-serif;
-    font-size: 14pt;
-}
-
-a:link {
-    text-decoration: none;
-    color: teal;
 }
 
 a:active {
@@ -67,7 +59,7 @@ a:visited {
     border: 15px solid #cdd2d0;
 }
 
-#my_photo {
+img {
     height: 477px;
     width: 357px;
     margin-bottom: 30px;
@@ -78,13 +70,14 @@ a:visited {
 .svg {
     height: 25px;
     width: 25px;
+    margin-bottom: 0;
+    border-radius: 0;
 }
 
 .square {
     border: 15px solid #cdd2d0;
     border-color: #cdd2d0;
 }
-
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 31pt;
@@ -96,12 +89,28 @@ h1 {
 h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-}   
+}
 
-#psummary {
+h3, h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14pt;
+}
+
+.psummary {
     padding-left: 30px;
     line-height: 1.59;
 }
+
+
+.summary {
+    height: 400px;
+}
+
+
 
 .circle {
     display: flex;
@@ -115,15 +124,14 @@ h2 {
 }
 
 ul {
-
-    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
     padding-left: 10px;
-
+    font-size: 14pt;
 }
 
 .contactList {
     padding-left: 30px;
-    list-style-type: none;
 }
 
 #skillsh {
